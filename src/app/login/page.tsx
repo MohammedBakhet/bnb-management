@@ -32,7 +32,7 @@ export default function LoginPage() {
       } else {
         setError(data.message || 'Invalid email or password');
       }
-    } catch (err) {
+    } catch {
       setError('Something went wrong');
     }
   };
